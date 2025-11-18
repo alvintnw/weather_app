@@ -1,0 +1,59 @@
+/* app/globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+  background: linear-gradient(135deg, #00f260 0%, #0575e6 100%); /* Gradasi Hijau ke Biru */
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+/* Efek Glassmorphism untuk Card */
+.glass-card {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  color: white;
+}
+
+.glass-header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  background: transparent;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* Input Form Styling */
+.custom-input {
+  border-radius: 30px !important;
+  border: none !important;
+  padding: 12px 20px !important;
+  background: rgba(255, 255, 255, 0.9) !important;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Button Styling */
+.custom-btn {
+  border-radius: 30px !important;
+  padding: 10px 30px !important;
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background-color: #ff6b6b !important;
+  border: none !important;
+  transition: transform 0.2s;
+}
+
+.custom-btn:hover {
+  transform: scale(1.05);
+  background-color: #ff5252 !important;
+}
+
+.weather-icon {
+  filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.5));
+  width: 120px;
+  height: 120px;
+}
